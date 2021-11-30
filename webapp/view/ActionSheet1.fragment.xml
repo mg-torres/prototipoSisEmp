@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.sistemaDeArchivos.controller.ActionSheet1" xmlns="sap.m">
+    <ActionSheet showCancelButton="true" cancelButtonText="Cancel" title="">
+        <buttons>
+            <Button text="Hoja de Calculo" icon="sap-icon://measurement-document" width="auto" enabled="true" press="_onActionSheetItemPress"/>
+            <Button text="Texto" icon="sap-icon://document-text" width="auto" enabled="true" press="_onActionSheetItemPress1"/>
+        </buttons>
+    </ActionSheet>
+</core:FragmentDefinition>

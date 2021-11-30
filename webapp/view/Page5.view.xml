@@ -1,0 +1,117 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.sistemaDeArchivos.controller.Page5" xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:f="sap.f">
+    <Page showHeader="false" title="" showFooter="false" showNavButton="false">
+        <content>
+            <layout:BlockLayout background="Default" visible="true">
+                <layout:content>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="1" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                    <Image src="/webapp/resources/logo_size.jpg" height="150px" width="150px" visible="true" densityAware="false" press="_onImagePress"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="2" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Image src="/webapp/resources/Dise_o_sin_t_tulo.jpg" height="147.68000000px" width="579.3624877929688px" visible="true" densityAware="false" press="_onImagePress1"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="1" title="" titleAlignment="End" titleLevel="Auto" class="sapUiMediumMargin">
+                                <layout:content>
+                                    <core:Icon src="sap-icon://action-settings" size="40px" height="48px" width="48px" visible="true" class="sapUiTinyMargin" press="_onIconPress"/>
+                                    <core:Icon src="sap-icon://sys-help" size="40px" height="48px" width="48px" visible="true" class="sapUiTinyMargin" press="_onIconPress1"/>
+                                    <f:Avatar src="" initials="DA" displayShape="Circle" displaySize="M" imageFitType="Cover" press="_onAvatarPress"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="2" title="Buscar" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <SearchField placeholder="Search" showSearchButton="true" visible="true" width="762.37000000px"/>
+                                    <Text text="" width="auto" maxLines="20" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Button text="Crear Carpeta" type="Transparent" icon="sap-icon://open-folder" iconFirst="true" width="138px" enabled="true" visible="true" iconDensityAware="false" class="sapUiSmallMargin"/>
+                                    <Button text="Crear Documento" type="Transparent" icon="sap-icon://add-document" iconFirst="true" width="155px" enabled="true" visible="true" iconDensityAware="false" class="sapUiSmallMargin" press="_onButtonPress"/>
+                                    <Button text="Descargar Seleccionado" type="Transparent" icon="sap-icon://download" iconFirst="true" width="191px" enabled="true" visible="true" iconDensityAware="false" class="sapUiSmallMargin"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Title text="Carpetas" titleStyle="H2" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                    <layout:BlockLayout background="Default" visible="true">
+                                        <layout:content>
+                                            <layout:BlockLayoutRow scrollable="false">
+                                                <layout:content>
+                                                    <layout:BlockLayoutCell width="1" title="" titleAlignment="Begin" titleLevel="Auto">
+                                                        <layout:content>
+                                                            <core:Icon src="sap-icon://folder-full" size="75px" color="#678BC7" height="48px" width="48px" activeColor="#1A9898" hoverColor="#1A9898" visible="true" class="sapUiMediumMargin"/>
+                                                            <Text text="Facturas" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiTinyMargin"/>
+                                                        </layout:content>
+                                                    </layout:BlockLayoutCell>
+                                                    <layout:BlockLayoutCell width="1" title="" titleAlignment="Begin" titleLevel="Auto">
+                                                        <layout:content>
+                                                            <core:Icon src="sap-icon://folder-full" size="75px" color="#678BC7" height="48px" width="48px" activeColor="#1A9898" hoverColor="#1A9898" visible="true" class="sapUiMediumMargin"/>
+                                                            <Text text="Recibos" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiTinyMargin"/>
+                                                        </layout:content>
+                                                    </layout:BlockLayoutCell>
+                                                </layout:content>
+                                            </layout:BlockLayoutRow>
+                                        </layout:content>
+                                    </layout:BlockLayout>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="" titleAlignment="Left" titleLevel="Auto">
+                                <layout:content>
+                                    <Title text="Archivos" titleStyle="H2" width="auto" textAlign="Begin" visible="true" wrapping="false" class="sapUiTinyMargin"/>
+                                    <layout:BlockLayout background="Default" visible="true">
+                                        <layout:content>
+                                            <layout:BlockLayoutRow scrollable="false">
+                                                <layout:content>
+                                                    <layout:BlockLayoutCell width="1" title="" titleAlignment="Begin" titleLevel="Auto">
+                                                        <layout:content>
+                                                            <core:Icon src="sap-icon://vds-file" size="75px" color="#666666" height="48px" width="48px" activeColor="#FABD64" hoverColor="#FABD64" visible="true" class="sapUiMediumMargin" press="_onIconPress2"/>
+                                                            <FormattedText htmlText="Tarifas Por Area 2022" width="auto" visible="true"/>
+                                                        </layout:content>
+                                                    </layout:BlockLayoutCell>
+                                                </layout:content>
+                                            </layout:BlockLayoutRow>
+                                        </layout:content>
+                                    </layout:BlockLayout>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                </layout:content>
+            </layout:BlockLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

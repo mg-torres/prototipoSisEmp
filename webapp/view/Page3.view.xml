@@ -1,0 +1,70 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.sistemaDeArchivos.controller.Page3" xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:f="sap.f" xmlns:richtexteditor="sap.ui.richtexteditor">
+    <Page showHeader="false" title="" showFooter="true" showNavButton="false">
+        <content>
+            <layout:BlockLayout background="Default" visible="true">
+                <layout:content>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="1" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                    <Image src="/webapp/resources/logo_size.jpg" height="127.3125px" width="125.05000305175781px" visible="true" densityAware="false"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="2" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Image src="/webapp/resources/Dise_o_sin_t_tulo.jpg" height="147.68000000px" width="579.3624877929688px" visible="true" densityAware="false"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="1" title="" titleAlignment="End" titleLevel="Auto">
+                                <layout:content>
+                                    <f:Avatar src="" initials="DA" displayShape="Circle" displaySize="M" imageFitType="Cover" class="sapUiMediumMargin" press="_onAvatarPress"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="2" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="" width="auto" maxLines="20" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                    <Button text="Archivo" type="Transparent" iconFirst="true" width="8%" enabled="true" visible="true" iconDensityAware="false" class="sapUiTinyMargin" press="_onButtonPress"/>
+                                    <Button text="Editar" type="Transparent" iconFirst="true" width="8%" enabled="true" visible="true" iconDensityAware="false" class="sapUiTinyMargin"/>
+                                    <Button text="Visualizar" type="Transparent" iconFirst="true" width="8%" enabled="true" visible="true" iconDensityAware="false" class="sapUiTinyMargin"/>
+                                    <Button text="Ayuda" type="Transparent" iconFirst="true" width="8%" enabled="true" visible="true" iconDensityAware="false" class="sapUiTinyMargin"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="" titleAlignment="Left" titleLevel="Auto">
+                                <layout:content>
+                                    <richtexteditor:RichTextEditor id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637331093146-content-sap_ui_layout_BlockLayoutRow-1637333100382-content-sap_ui_layout_BlockLayoutCell-1-b6auh8nevwe6cw159lxx8mqy1_S1-qpu6z1h0p540b4g2650rgv662_S2-content-sap_ui_richtexteditor_RichTextEditor-1637613257649" width="100%" height="300px" value="" showGroupFontStyle="true" showGroupTextAlign="true" showGroupFont="true" showGroupStructure="true" showGroupLink="true" showGroupInsert="true" showGroupClipboard="true" required="false" editable="true" visible="true" class="sapUiCompSmartMultiEditSmartField" editorType="TinyMCE4" customToolbar="true"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content/>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                </layout:content>
+            </layout:BlockLayout>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress1"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress2"/>
+                </content>
+            </OverflowToolbar>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

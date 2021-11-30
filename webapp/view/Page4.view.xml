@@ -1,0 +1,172 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.sistemaDeArchivos.controller.Page4" xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:unified="sap.ui.unified" xmlns:commons="sap.suite.ui.commons">
+    <Page showHeader="false" title="Responsive Page Title" showFooter="false" showNavButton="false">
+        <content>
+            <layout:BlockLayout background="Default" visible="true">
+                <layout:content>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="David Álvarez" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Title text="" titleStyle="Auto" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="1" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <core:Icon src="sap-icon://navigation-left-arrow" size="48px" color="#678BC7" height="48px" width="48px" activeColor="#1A9898" hoverColor="#1A9898" visible="true" press="_onIconPress"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <SearchField placeholder="Search" showSearchButton="true" visible="true" width="auto"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                </layout:content>
+            </layout:BlockLayout>
+            <layout:BlockLayout background="Default" visible="true">
+                <layout:content>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="" width="auto" maxLines="20" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                    <UploadCollection uploadEnabled="false" numberOfAttachmentsText="" showSeparators="All" noDataText="The UploadCollection coming from BUILD cannot work in WebIDE without additional work" visible="true" maximumFileSize="10" mimeType="image/jpeg,image/gif,image/png,text/plain,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" multiple="false" uploadUrl="" sameFilenameAllowed="false" mode="SingleSelectMaster" change="_onUploadCollectionChange" uploadComplete="_onUploadCollectionUploadComplete" typeMissmatch="_onUploadCollectionTypeMissmatch" fileSizeExceed="_onUploadCollectionFileSizeExceed">
+                                        <headerParameters/>
+                                        <items/>
+                                        <parameters/>
+                                        <toolbar/>
+                                    </UploadCollection>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="4" title="Agenda" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                    <PlanningCalendar id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399" width="auto" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399/startDate}" noDataText="No data" singleSelection="true" appointmentsVisualization="Filled" appointmentsReducedHeight="false" showRowHeaders="true" showWeekNumbers="true" showDayNamesLine="false" visible="true" showIntervalHeaders="false">
+                                        <toolbarContent>
+                                            <Title text="Title" titleStyle="H4" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                                        </toolbarContent>
+                                        <rows>
+                                            <PlanningCalendarRow title="David Álvarez" text="Líder admnistrativo" icon="/build/uilibraries/content/static/person-picture.jpg" selected="false">
+                                                <appointments>
+                                                    <unified:CalendarAppointment id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-1" title="Junta administritativa" text="Sede calle 103" icon="sap-icon://family-care" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-1/startDate}" endDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-1/endDate}" type="Type19" selected="false" tentative="false"/>
+                                                    <unified:CalendarAppointment id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-2" title="Reunión área financiera" text="Zoom" icon="sap-icon://call" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-2/startDate}" endDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-2/endDate}" type="Type08" selected="false" tentative="false"/>
+                                                    <unified:CalendarAppointment id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-3" title="Cita en el banco" text="" icon="sap-icon://private" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-3/startDate}" endDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-1-appointments-sap_ui_unified_CalendarAppointment-3/endDate}" type="Type12" selected="false" tentative="false"/>
+                                                </appointments>
+                                            </PlanningCalendarRow>
+                                            <PlanningCalendarRow title="Teresa Gómez" text="Líder de Medicina" icon="/build/uilibraries/content/static/Donna_Moore.jpg" selected="false">
+                                                <appointments>
+                                                    <unified:CalendarAppointment id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-1" title="Congreso en Panamá" text="Flight Number : CF4652" icon="sap-icon://flight" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-1/startDate}" endDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-1/endDate}" type="Type05" selected="false" tentative="false"/>
+                                                    <unified:CalendarAppointment id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-2" title="Reunión equipo médico" text="Zoom" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-2/startDate}" endDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-2/endDate}" type="Type08" selected="false" tentative="false"/>
+                                                    <unified:CalendarAppointment id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-3" title="Reunión con Alirio R" text="Online" icon="sap-icon://employee" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-3/startDate}" endDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-2-appointments-sap_ui_unified_CalendarAppointment-3/endDate}" type="Type11" selected="false" tentative="false"/>
+                                                </appointments>
+                                            </PlanningCalendarRow>
+                                            <PlanningCalendarRow title="Alirio Ramírez" text="Jefe Técnico" icon="sap-icon://employee" selected="false">
+                                                <appointments>
+                                                    <unified:CalendarAppointment id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-3-appointments-sap_ui_unified_CalendarAppointment-1" title="Reunión semanal equipo" text="Sala rayos-X" icon="sap-icon://family-care" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-3-appointments-sap_ui_unified_CalendarAppointment-1/startDate}" endDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-3-appointments-sap_ui_unified_CalendarAppointment-1/endDate}" type="Type11" selected="false" tentative="false"/>
+                                                    <unified:CalendarAppointment id="sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-3-appointments-sap_ui_unified_CalendarAppointment-1637706849297" title="Reunión con Dr. Teresa G" text="Virtual" icon="sap-icon://employee" startDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-3-appointments-sap_ui_unified_CalendarAppointment-1637706849297/startDate}" endDate="{staticDataModel>/sap_Responsive_Page_0-content-sap_ui_layout_BlockLayout-1637674623811-content-sap_ui_layout_BlockLayoutRow-1-content-sap_ui_layout_BlockLayoutCell-1-content-sap_m_PlanningCalendar-1637675537399-rows-sap_m_PlanningCalendarRow-3-appointments-sap_ui_unified_CalendarAppointment-1637706849297/endDate}" type="Type08" selected="false" tentative="false"/>
+                                                </appointments>
+                                            </PlanningCalendarRow>
+                                        </rows>
+                                    </PlanningCalendar>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="2" title="Calendario" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="" width="auto" maxLines="20" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                    <unified:Calendar months="1" singleSelection="true" intervalSelection="false" firstDayOfWeek="0" visible="true">
+                                        <unified:specialDates/>
+                                        <unified:selectedDates/>
+                                    </unified:Calendar>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="2" title="Cambios en los documentos" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <commons:Timeline alignment="Left" enableDoubleSided="true" width="100%" height="auto" axisOrientation="Vertical" enableBusyIndicator="true" enableScroll="false" forceGrowing="false" groupBy="" growingThreshold="5" showHeaderBar="true" showIcons="true" showSearch="true" sort="true" sortOldestFirst="false">
+                                        <commons:content>
+                                            <commons:TimelineItem dateTime="20010101100000" text="Horarios del personal médico para el 2022: ...." userName="tgomez" userPicture="/webapp/resources/azul.png" title="Nuevos horarios" icon="sap-icon://notes" filterValue="Filter Value" userNameClickable="true" replyCount="0" maxCharacters="0">
+                                                <commons:embeddedControl/>
+                                            </commons:TimelineItem>
+                                            <commons:TimelineItem dateTime="20010101100000" text="La tarifas para el 2022 por área serán las siguientes:" userName="dalvarez" userPicture="/webapp/resources/azul.png" title="Actualización de tarifas" icon="sap-icon://notes" filterValue="Filter Value" userNameClickable="true" replyCount="0" maxCharacters="0">
+                                                <commons:embeddedControl/>
+                                            </commons:TimelineItem>
+                                            <commons:TimelineItem dateTime="20010101100000" text="Facturación a noviembre de 2021:" userName="dalvarez" userPicture="/webapp/resources/azul.png" title="Facturación" icon="sap-icon://notes" filterValue="Filter Value" userNameClickable="true" replyCount="0" maxCharacters="0">
+                                                <commons:embeddedControl/>
+                                            </commons:TimelineItem>
+                                            <commons:TimelineItem dateTime="20010101100000" text="Actualización de presupuesto para adquirir las nuevas máquinas..." userName="aramirez" userPicture="/webapp/resources/azul.png" title="Presupuesto" icon="sap-icon://notes" filterValue="Filter Value" userNameClickable="true" replyCount="0" maxCharacters="0">
+                                                <commons:embeddedControl/>
+                                            </commons:TimelineItem>
+                                        </commons:content>
+                                        <commons:filterList/>
+                                    </commons:Timeline>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                </layout:content>
+            </layout:BlockLayout>
+            <layout:BlockLayout background="Default" visible="true">
+                <layout:content>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="1" title="Title" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="Some text" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="1" title="1/4 width cell" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="More text" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="2" title="End aligned heading" titleAlignment="End" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="More text" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                    <layout:BlockLayoutRow scrollable="false">
+                        <layout:content>
+                            <layout:BlockLayoutCell width="2" title="50% width cell" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <Text text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr." width="auto" maxLines="20" wrapping="true" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                            <layout:BlockLayoutCell width="2" title="50% width cell" titleAlignment="Begin" titleLevel="Auto">
+                                <layout:content>
+                                    <FeedInput showIcon="true" icon="" placeholder="Post something here" enabled="true" visible="true" maxLength="0" buttonTooltip="Submit"/>
+                                    <FeedInput showIcon="true" icon="" placeholder="Post something here" enabled="true" visible="true" maxLength="0" buttonTooltip="Submit"/>
+                                </layout:content>
+                            </layout:BlockLayoutCell>
+                        </layout:content>
+                    </layout:BlockLayoutRow>
+                </layout:content>
+            </layout:BlockLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.sistemaDeArchivos.controller.ActionSheet5" xmlns="sap.m">
+    <ActionSheet showCancelButton="true" cancelButtonText="Cancel" title="">
+        <buttons>
+            <Button text="Configuración" icon="sap-icon://action-settings" width="auto" enabled="true"/>
+            <Button text="Accesos Directos" icon="sap-icon://sys-monitor" width="auto" enabled="true"/>
+        </buttons>
+    </ActionSheet>
+</core:FragmentDefinition>

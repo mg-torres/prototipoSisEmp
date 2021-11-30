@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.sistemaDeArchivos.controller.ActionSheet6" xmlns="sap.m">
+    <ActionSheet showCancelButton="true" cancelButtonText="Cancel" title="">
+        <buttons>
+            <Button text="Ayuda" icon="sap-icon://question-mark" width="auto" enabled="true"/>
+            <Button text="Actualizaciones" icon="sap-icon://download" width="auto" enabled="true"/>
+            <Button text="Términos y Polítca" icon="sap-icon://form" width="auto" enabled="true"/>
+        </buttons>
+    </ActionSheet>
+</core:FragmentDefinition>
